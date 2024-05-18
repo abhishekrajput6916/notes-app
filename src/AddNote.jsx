@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import './App.css'
-import { Button } from '@mui/material';
 
 function AddNote({handleAddNote}) {
 const [characterLimit,setCharacterLimit]=useState(100);
