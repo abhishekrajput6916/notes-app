@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+
 import './Note.css'
 import DeleteForeverIcon from '@mui/icons-material/DeleteForever';
 
