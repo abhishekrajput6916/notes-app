@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './App.css'
 
 function AddNote({handleAddNote}) {
-const [characterLimit,setCharacterLimit]=useState(100);
+const characterLimit=100;
 const [noteText,setNoteText]=useState('');
 const handleChange=(e)=>{
     const {value}=e.target;
